@@ -37,7 +37,6 @@ jobs:
       with:
         branch: 'master'
         github_token: $ 
-      with:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
